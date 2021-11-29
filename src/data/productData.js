@@ -1,0 +1,1 @@
+const dbConection = require("./../infra/mongo-database");
