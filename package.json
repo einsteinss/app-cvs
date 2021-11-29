@@ -1,0 +1,11 @@
+{
+  "name": "controle-de-stock",
+  "version": "1.0.0",
+  "description": "Sistema de controle de stock - para controlar o que entrou, o que saiu e o que sobrou na stcok",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Kussy",
+  "license": "MIT"
+}
