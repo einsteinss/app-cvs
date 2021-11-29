@@ -11,11 +11,11 @@ const connection = (async () => {
 
     await con.connect((err) => {
         if (err) {
-            console.log('Erro ao conectar com a base de dados:', err)
-            return
+            console.log('Erro ao conectar com a base de dados:', err);
+            return;
         }
-        console.log('Conexão estabelecida com a base de dados')
+        console.log('Conexão estabelecida com a base de dados');
     })
-})()
+})();
 
-module.exports = connection
+module.exports = connection;
