@@ -4,8 +4,8 @@
   "description": "Sistema de controle de stock - para controlar o que entrou, o que saiu e o que sobrou na stcok",
   "main": "app.js",
   "scripts": {
-    
-    "start": "node src/app.js"
+    "test": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
   },
   "author": "Pedro Kussy",
   "license": "MIT",
