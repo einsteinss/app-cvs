@@ -1,8 +1,13 @@
 const express = require("express");
 const router = express.Router();
-
-router.get("/api/user",(req, res)=>{
-	res.send("Pedro Kussy");
+//const produtos = require("./../service/produtoService");
+var vendas = require("./../service/vendaService")
+vendas = new vendas()
+router.get("/api",(req, res)=>{
+	res.send("Hello! Welcome come here.");
 })
 
-module.exports = router;
+router.get("/api/vendas", vendas.getAll);
+router.get("/api/vendas/:id/", vendas.getOne);
+
+module.exports = router; 

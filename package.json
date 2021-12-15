@@ -4,7 +4,8 @@
   "description": "Sistema de controle de stock - para controlar o que entrou, o que saiu e o que sobrou na stcok",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    "start": "node src/app.js"
   },
   "author": "Pedro Kussy",
   "license": "MIT",
@@ -13,6 +14,11 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongodb": "^4.2.0",
-    "mysql2": "^2.3.3"
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.0-beta.3"
   }
 }
